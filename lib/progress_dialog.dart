@@ -294,11 +294,11 @@ class ProgressDialog {
             },
           ),
         ),
-        onPopInvoked: (didPop) {
-          if (didPop) {
-            _dialogIsOpen = false;
-          }
-        },
+        // onPopInvoked: (didPop) {
+        //   if (didPop) {
+        //     _dialogIsOpen = false;
+        //   }
+        // },
       ),
     );
   }

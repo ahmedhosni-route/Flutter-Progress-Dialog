@@ -158,7 +158,7 @@ class ProgressDialog {
       barrierColor: barrierColor,
       context: _context,
       useRootNavigator: _useRootNavigator,
-      builder: (context) => PopScope(
+      builder: (context) => WillPopScope(
         canPop: barrierDismissible,
         child: AlertDialog(
           surfaceTintColor: surfaceTintColor,
